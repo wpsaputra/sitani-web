@@ -22,11 +22,11 @@ class SiteController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('login','logout'),
+				'actions'=>array('index','login','logout'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','error', 'padi', 'palawija', 'lahan', 'refreshPadi', 'refreshPalawija', 'refreshIndex', 'refreshLahan'),
+				'actions'=>array('error', 'padi', 'palawija', 'lahan', 'refreshPadi', 'refreshPalawija', 'refreshIndex', 'refreshLahan'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users

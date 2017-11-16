@@ -9,12 +9,13 @@ $bulan_alfabet = MyClass::$month[$bulan];
         <h4><?php echo "Penerimaan Dokumen {$dokumen_kapital} BPS Sultra"?></h4>
         <h4><?php echo "Kondisi {$bulan_alfabet} {$tahun}"?></h4>
         <div class="row">
-            <div id="world-map" class="col-md-8" style="height: 400px"></div>
+            <div id="world-map" class="col-md-12" style="height: 500px"></div>
             <?php
-            $red = '#d32a0e';
-            $yellow ='#e99002';
-            $green = '#43ac6a';
-            $grey = '#d32a0e'; //'#eeeeee';
+           $red = '#ff6060';
+           $yellow ='#fed776';
+           $green = '#1ed491';
+           $grey = '#d32a0e'; //'#eeeeee';
+
 
             $kabupatenx = Kabupaten::model()->findAll();
             $kabupaten = CHtml::listData($kabupatenx, 'id', 'kabupaten');
@@ -101,60 +102,6 @@ $bulan_alfabet = MyClass::$month[$bulan];
                 </div>
 
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h4><?php echo "Persentase Penerimaan Dokumen {$dokumen_kapital} Berdasarkan Kabupaten/Kota"?></h4>
-        <h4><?php echo "{$bulan_alfabet} {$tahun}"?></h4>
-        <?php
-        $index = 1;
-        foreach ($knob_array as $knob){
-            if($index%4==3){
-                echo "<div class=\"row\">";
-            }
-
-            echo MyClass::createKnob($knob['id'], $knob['value'], $knob['color'], $knob['label']);
-
-            if($index%4==0){
-                echo "</div>";
-            }
-
-            $index = $index+1;
-        }
-        ?>
-
-    </div>
-</div>
-
-<?php
-
-$penimbang = Yii::app()->db->createCommand("SELECT COUNT(`kecamatan`)
-								FROM `".$dokumen."` WHERE bulan=:bulan AND MID(`identitas`, 1, 4)=:tahun")
-    ->bindValues(array(':bulan'=>$bulan, ':tahun'=>$tahun))->queryScalar();
-$pembagi = Kecamatan::model()->count();
-//echo $penimbang." ".$pembagi;
-$value = round($penimbang/$pembagi*100, 2);
-//$value = 100;
-if($value==0){
-    $color = $grey;
-}elseif($value==100){
-    $color = $green;
-}elseif($value<=50){
-    $color = $red;
-}
-else{
-    $color = $yellow;
-}
-?>
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h4><?php echo "Persentase Penerimaan Dokumen {$dokumen_kapital} Seluruh Provinsi SULTRA"?></h4>
-        <h4><?php echo "{$bulan_alfabet} {$tahun}"?></h4>
-        <div class="row">
-            <?php echo MyClass::createKnob('knob_prov', $value, $color, 'BPS Provinsi SULTRA');?>
         </div>
     </div>
 </div>
