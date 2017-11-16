@@ -1,0 +1,643 @@
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.color-grey{
+    background-color: #eeeeee;
+}
+
+.plus-right-margin{
+    margin-right: 15px;
+}
+
+.hover-item:hover {
+    background-color: #029bce !important;
+}
+
+/*.hover-item:visited{*/
+    /*background-color: #029bce !important;*/
+/*}*/
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+/*CGridView*/
+.grid-view-loading {
+    background:url(loading.gif) no-repeat;
+}
+
+.grid-view {
+    padding: 15px 0;
+}
+
+th > a.asc {
+    background:url(up.gif) right center no-repeat;
+    padding-right: 10px;
+}
+
+th > a.desc {
+    background:url(down.gif) right center no-repeat;
+    padding-right: 10px;
+}
+
+/*.selected {*/
+    /*!*color: #ffffff;*!*/
+    /*background-color: #008cba !important;*/
+    /*border-color: transparent;*/
+    /*cursor: default;*/
+/*}*/
+
+.pagination>li.selected>a {
+    margin-left: 4px;
+    background-color: #008cba;
+    /*color: #008cba;*/
+    border-color: transparent;
+    cursor: default;
+    color: white;
+}
+
+.custom_error{
+    margin-left: 15px;
+    color: red;
+}
+
+/*CSS Loading*/
+.cssload-container *, .cssload-container *:before, .cssload-container *:after{
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.cssload-container {
+    margin: 49px auto;
+    position: relative;
+    width: 97px;
+    height: 97px;
+}
+.cssload-container > div {
+    float: left;
+    background: rgb(185,108,255);
+    height: 100%;
+    width: 5px;
+    margin-right: 1px;
+    display: inline-block;
+}
+
+.cssload-container {
+    position: relative;
+    width: 97px;
+    height: 97px;
+}
+.cssload-container > div {
+    background: transparent;
+    border: 8px solid transparent;
+    border-color: rgb(185,108,255) transparent;
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+    -ms-transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+    animation: cssload-wave 2.3s infinite ease-in-out;
+    -o-animation: cssload-wave 2.3s infinite ease-in-out;
+    -ms-animation: cssload-wave 2.3s infinite ease-in-out;
+    -webkit-animation: cssload-wave 2.3s infinite ease-in-out;
+    -moz-animation: cssload-wave 2.3s infinite ease-in-out;
+}
+.cssload-container .cssload-shaft1 {
+    animation-delay: 0.12s;
+    -o-animation-delay: 0.12s;
+    -ms-animation-delay: 0.12s;
+    -webkit-animation-delay: 0.12s;
+    -moz-animation-delay: 0.12s;
+    width: 19px;
+    height: 19px;
+}
+.cssload-container .cssload-shaft2 {
+    animation-delay: 0.23s;
+    -o-animation-delay: 0.23s;
+    -ms-animation-delay: 0.23s;
+    -webkit-animation-delay: 0.23s;
+    -moz-animation-delay: 0.23s;
+    width: 24px;
+    height: 24px;
+}
+.cssload-container .cssload-shaft3 {
+    animation-delay: 0.35s;
+    -o-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    -webkit-animation-delay: 0.35s;
+    -moz-animation-delay: 0.35s;
+    width: 34px;
+    height: 34px;
+}
+.cssload-container .cssload-shaft4 {
+    animation-delay: 0.46s;
+    -o-animation-delay: 0.46s;
+    -ms-animation-delay: 0.46s;
+    -webkit-animation-delay: 0.46s;
+    -moz-animation-delay: 0.46s;
+    width: 44px;
+    height: 44px;
+}
+.cssload-container .cssload-shaft5 {
+    animation-delay: 0.58s;
+    -o-animation-delay: 0.58s;
+    -ms-animation-delay: 0.58s;
+    -webkit-animation-delay: 0.58s;
+    -moz-animation-delay: 0.58s;
+    width: 54px;
+    height: 54px;
+}
+.cssload-container .cssload-shaft6 {
+    animation-delay: 0.69s;
+    -o-animation-delay: 0.69s;
+    -ms-animation-delay: 0.69s;
+    -webkit-animation-delay: 0.69s;
+    -moz-animation-delay: 0.69s;
+    width: 63px;
+    height: 63px;
+}
+.cssload-container .cssload-shaft7 {
+    animation-delay: 0.81s;
+    -o-animation-delay: 0.81s;
+    -ms-animation-delay: 0.81s;
+    -webkit-animation-delay: 0.81s;
+    -moz-animation-delay: 0.81s;
+    width: 73px;
+    height: 73px;
+}
+.cssload-container .cssload-shaft8 {
+    animation-delay: 0.92s;
+    -o-animation-delay: 0.92s;
+    -ms-animation-delay: 0.92s;
+    -webkit-animation-delay: 0.92s;
+    -moz-animation-delay: 0.92s;
+    width: 78px;
+    height: 78px;
+}
+.cssload-container .cssload-shaft9 {
+    animation-delay: 1.04s;
+    -o-animation-delay: 1.04s;
+    -ms-animation-delay: 1.04s;
+    -webkit-animation-delay: 1.04s;
+    -moz-animation-delay: 1.04s;
+    width: 83px;
+    height: 83px;
+}
+.cssload-container .cssload-shaft10 {
+    animation-delay: 1.15s;
+    -o-animation-delay: 1.15s;
+    -ms-animation-delay: 1.15s;
+    -webkit-animation-delay: 1.15s;
+    -moz-animation-delay: 1.15s;
+    width: 88px;
+    height: 88px;
+}
+
+
+
+@keyframes cssload-wave {
+    50% {
+        transform: translate(-50%, -50%) rotate(360deg);
+        border-color: rgb(86,215,198) transparent;
+    }
+}
+
+@-o-keyframes cssload-wave {
+    50% {
+        -o-transform: translate(-50%, -50%) rotate(360deg);
+        border-color: rgb(86,215,198) transparent;
+    }
+}
+
+@-ms-keyframes cssload-wave {
+    50% {
+        -ms-transform: translate(-50%, -50%) rotate(360deg);
+        border-color: rgb(86,215,198) transparent;
+    }
+}
+
+@-webkit-keyframes cssload-wave {
+    50% {
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        border-color: rgb(86,215,198) transparent;
+    }
+}
+
+@-moz-keyframes cssload-wave {
+    50% {
+        -moz-transform: translate(-50%, -50%) rotate(360deg);
+        border-color: rgb(86,215,198) transparent;
+    }
+}
+
+.cssload-tetrominos {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-109px, -94px);
+    -o-transform: translate(-109px, -94px);
+    -ms-transform: translate(-109px, -94px);
+    -webkit-transform: translate(-109px, -94px);
+    -moz-transform: translate(-109px, -94px);
+}
+
+.cssload-tetromino {
+    width: 94px;
+    height: 109px;
+    position: absolute;
+    transition: all ease 0.35s;
+    -o-transition: all ease 0.35s;
+    -ms-transition: all ease 0.35s;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    background: url('data:image/svg+xml;utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 684"%3E%3Cpath fill="%23010101" d="M305.7 0L0 170.9v342.3L305.7 684 612 513.2V170.9L305.7 0z"/%3E%3Cpath fill="%23fff" d="M305.7 80.1l-233.6 131 233.6 131 234.2-131-234.2-131"/%3E%3C/svg%3E') no-repeat top center;
+}
+
+.cssload-box1 {
+    animation: cssload-tetromino1 1.73s ease-out infinite;
+    -o-animation: cssload-tetromino1 1.73s ease-out infinite;
+    -ms-animation: cssload-tetromino1 1.73s ease-out infinite;
+    -webkit-animation: cssload-tetromino1 1.73s ease-out infinite;
+    -moz-animation: cssload-tetromino1 1.73s ease-out infinite;
+}
+
+.cssload-box2 {
+    animation: cssload-tetromino2 1.73s ease-out infinite;
+    -o-animation: cssload-tetromino2 1.73s ease-out infinite;
+    -ms-animation: cssload-tetromino2 1.73s ease-out infinite;
+    -webkit-animation: cssload-tetromino2 1.73s ease-out infinite;
+    -moz-animation: cssload-tetromino2 1.73s ease-out infinite;
+}
+
+.cssload-box3 {
+    animation: cssload-tetromino3 1.73s ease-out infinite;
+    -o-animation: cssload-tetromino3 1.73s ease-out infinite;
+    -ms-animation: cssload-tetromino3 1.73s ease-out infinite;
+    -webkit-animation: cssload-tetromino3 1.73s ease-out infinite;
+    -moz-animation: cssload-tetromino3 1.73s ease-out infinite;
+    z-index: 2;
+}
+
+.cssload-box4 {
+    animation: cssload-tetromino4 1.73s ease-out infinite;
+    -o-animation: cssload-tetromino4 1.73s ease-out infinite;
+    -ms-animation: cssload-tetromino4 1.73s ease-out infinite;
+    -webkit-animation: cssload-tetromino4 1.73s ease-out infinite;
+    -moz-animation: cssload-tetromino4 1.73s ease-out infinite;
+}
+
+
+
+
+
+
+
+
+
+@keyframes cssload-tetromino1 {
+    0%, 40% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(47px, -26px);
+    }
+    60%, 100% {
+        transform: translate(94px, 0);
+    }
+}
+
+@-o-keyframes cssload-tetromino1 {
+    0%, 40% {
+        -o-transform: translate(0, 0);
+    }
+    50% {
+        -o-transform: translate(47px, -26px);
+    }
+    60%, 100% {
+        -o-transform: translate(94px, 0);
+    }
+}
+
+@-ms-keyframes cssload-tetromino1 {
+    0%, 40% {
+        -ms-transform: translate(0, 0);
+    }
+    50% {
+        -ms-transform: translate(47px, -26px);
+    }
+    60%, 100% {
+        -ms-transform: translate(94px, 0);
+    }
+}
+
+@-webkit-keyframes cssload-tetromino1 {
+    0%, 40% {
+        -webkit-transform: translate(0, 0);
+    }
+    50% {
+        -webkit-transform: translate(47px, -26px);
+    }
+    60%, 100% {
+        -webkit-transform: translate(94px, 0);
+    }
+}
+
+@-moz-keyframes cssload-tetromino1 {
+    0%, 40% {
+        -moz-transform: translate(0, 0);
+    }
+    50% {
+        -moz-transform: translate(47px, -26px);
+    }
+    60%, 100% {
+        -moz-transform: translate(94px, 0);
+    }
+}
+
+@keyframes cssload-tetromino2 {
+    0%, 20% {
+        transform: translate(94px, 0px);
+    }
+    40%, 100% {
+        transform: translate(140px, 26px);
+    }
+}
+
+@-o-keyframes cssload-tetromino2 {
+    0%, 20% {
+        -o-transform: translate(94px, 0px);
+    }
+    40%, 100% {
+        -o-transform: translate(140px, 26px);
+    }
+}
+
+@-ms-keyframes cssload-tetromino2 {
+    0%, 20% {
+        -ms-transform: translate(94px, 0px);
+    }
+    40%, 100% {
+        -ms-transform: translate(140px, 26px);
+    }
+}
+
+@-webkit-keyframes cssload-tetromino2 {
+    0%, 20% {
+        -webkit-transform: translate(94px, 0px);
+    }
+    40%, 100% {
+        -webkit-transform: translate(140px, 26px);
+    }
+}
+
+@-moz-keyframes cssload-tetromino2 {
+    0%, 20% {
+        -moz-transform: translate(94px, 0px);
+    }
+    40%, 100% {
+        -moz-transform: translate(140px, 26px);
+    }
+}
+
+@keyframes cssload-tetromino3 {
+    0% {
+        transform: translate(140px, 26px);
+    }
+    20%, 60% {
+        transform: translate(94px, 53px);
+    }
+    90%, 100% {
+        transform: translate(47px, 26px);
+    }
+}
+
+@-o-keyframes cssload-tetromino3 {
+    0% {
+        -o-transform: translate(140px, 26px);
+    }
+    20%, 60% {
+        -o-transform: translate(94px, 53px);
+    }
+    90%, 100% {
+        -o-transform: translate(47px, 26px);
+    }
+}
+
+@-ms-keyframes cssload-tetromino3 {
+    0% {
+        -ms-transform: translate(140px, 26px);
+    }
+    20%, 60% {
+        -ms-transform: translate(94px, 53px);
+    }
+    90%, 100% {
+        -ms-transform: translate(47px, 26px);
+    }
+}
+
+@-webkit-keyframes cssload-tetromino3 {
+    0% {
+        -webkit-transform: translate(140px, 26px);
+    }
+    20%, 60% {
+        -webkit-transform: translate(94px, 53px);
+    }
+    90%, 100% {
+        -webkit-transform: translate(47px, 26px);
+    }
+}
+
+@-moz-keyframes cssload-tetromino3 {
+    0% {
+        -moz-transform: translate(140px, 26px);
+    }
+    20%, 60% {
+        -moz-transform: translate(94px, 53px);
+    }
+    90%, 100% {
+        -moz-transform: translate(47px, 26px);
+    }
+}
+
+@keyframes cssload-tetromino4 {
+    0%, 60% {
+        transform: translate(47px, 26px);
+    }
+    90%, 100% {
+        transform: translate(0, 0);
+    }
+}
+
+@-o-keyframes cssload-tetromino4 {
+    0%, 60% {
+        -o-transform: translate(47px, 26px);
+    }
+    90%, 100% {
+        -o-transform: translate(0, 0);
+    }
+}
+
+@-ms-keyframes cssload-tetromino4 {
+    0%, 60% {
+        -ms-transform: translate(47px, 26px);
+    }
+    90%, 100% {
+        -ms-transform: translate(0, 0);
+    }
+}
+
+@-webkit-keyframes cssload-tetromino4 {
+    0%, 60% {
+        -webkit-transform: translate(47px, 26px);
+    }
+    90%, 100% {
+        -webkit-transform: translate(0, 0);
+    }
+}
+
+@-moz-keyframes cssload-tetromino4 {
+    0%, 60% {
+        -moz-transform: translate(47px, 26px);
+    }
+    90%, 100% {
+        -moz-transform: translate(0, 0);
+    }
+}
+
+#divLoading
+{
+    display : none;
+}
+#divLoading.show
+{
+    display : block;
+    position : fixed;
+    z-index: 100;
+    /*background-image : url('http://loadinggif.com/images/image-selection/3.gif');*/
+    /*background-color:#666;*/
+    opacity : 0.5;
+    background-repeat : no-repeat;
+    background-position : center;
+    left : 0;
+    bottom : 0;
+    right : 0;
+    top : 0;
+}
+#loadinggif.show
+{
+    left : 50%;
+    top : 50%;
+    position : absolute;
+    z-index : 101;
+    width : 32px;
+    height : 32px;
+    margin-left : -16px;
+    margin-top : -16px;
+}
+div.content {
+    width : 1000px;
+    height : 1000px;
+}
+
+/*Triangle Dropdown*/
+.triangle {
+    background-color: white !important;
+    /*color: black !important;*/
+}
+.triangle>li>a{
+     color: black !important;
+}
+
+.triangle>li>a:hover{
+    background-color: #008cba !important;
+    color: black !important;
+}
+
+.triangle:before {
+    position: absolute;
+    top: -7px;
+    left: 119px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
+
+.triangle:after {
+    position: absolute;
+    top: -6px;
+    left: 120px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    content: '';
+}
+
+.badge {
+    background: red;
+}

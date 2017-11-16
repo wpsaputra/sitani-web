@@ -1,0 +1,932 @@
+2016/10/23 13:34:11 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 13:34:11 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 13:34:20 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 13:34:20 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 13:35:33 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 13:35:33 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 13:36:32 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 13:36:32 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:09:16 [error] [exception.ParseError] ParseError: syntax error, unexpected ')', expecting ',' or ';' in D:\xampp\htdocs\simon\protected\views\jadwal\_form.php:112
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\simon\protected\views\jadwal\update.php(21): CController->renderPartial('_form', Array)
+#3 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#7 D:\xampp\htdocs\simon\protected\controllers\JadwalController.php(233): CController->render('update', Array)
+#8 [internal function]: JadwalController->actionUpdate('33')
+#9 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(JadwalController), Array)
+#10 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(JadwalController), Object(ReflectionMethod), Array)
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('update')
+#20 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('jadwal/update')
+#21 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/simon/index.php?r=jadwal/update&id=33
+---
+2016/10/23 14:17:35 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:17:35 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:21:03 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:21:03 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:25:20 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:25:20 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:33:39 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:33:39 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:33:40 [error] [php] Undefined index: id_tipe_dokumen (D:\xampp\htdocs\simon\protected\controllers\JadwalController.php:197)
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): JadwalController->runAction()
+#3 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): JadwalController->filterAccessControl()
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\chidori\framework\web\CController.php(266): JadwalController->runActionWithFilters()
+#9 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): JadwalController->run()
+#10 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=jadwal/update&id=16
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (197)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:34:58 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 14:34:58 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:30:08 [error] [exception.ParseError] ParseError: syntax error, unexpected '}' in D:\xampp\htdocs\simon\protected\views\layouts\main.php:82
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\chidori\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\chidori\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#3 D:\xampp\htdocs\chidori\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(207): COutputProcessor->run()
+#5 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#6 D:\xampp\htdocs\simon\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\chidori\framework\web\CController.php(785): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#10 D:\xampp\htdocs\simon\protected\controllers\JadwalController.php(278): CController->render('admin', Array)
+#11 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): JadwalController->actionAdmin()
+#12 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#21 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('jadwal/admin')
+#22 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/simon/index.php?r=jadwal/admin
+HTTP_REFERER=http://localhost/simon/index.php
+---
+2016/10/23 15:36:38 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\chidori\framework\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('update')
+#9 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('jadwal/update')
+#10 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/simon/index.php?r=jadwal/update&id%5Bid%5D=33&id%5Btanggal_batas%5D=2016-10-29+00%3A00%3A00
+HTTP_REFERER=http://localhost/simon/index.php?r=site/index
+---
+2016/10/23 15:44:47 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:44:47 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\JadwalController.php (171)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:44 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (79)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:44 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (79)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:44 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:44 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:45 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:56:46 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (98)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:57:34 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (79)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 15:57:34 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (79)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 16:11:09 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\chidori\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('refreshLahan')
+#8 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/refreshLah...')
+#9 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/simon/index.php?r=site/refreshLahan
+HTTP_REFERER=http://localhost/simon/index.php?r=site/lahan
+---
+2016/10/23 16:12:41 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\chidori\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('refreshLahan')
+#8 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/refreshLah...')
+#9 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/simon/index.php?r=site/refreshLahan
+HTTP_REFERER=http://localhost/simon/index.php?r=site/lahan
+---
+2016/10/23 16:29:33 [error] [exception.CException] CException: SiteController cannot find the requested view "_lahan_kec". in D:\xampp\htdocs\chidori\framework\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\views\site\lahan.php(48): CController->renderPartial('_lahan_kec', Array)
+#1 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('lahan', Array, true)
+#5 D:\xampp\htdocs\simon\protected\controllers\SiteController.php(179): CController->render('lahan', Array)
+#6 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionLahan()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('lahan')
+#16 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/lahan')
+#17 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/simon/index.php?r=site/lahan&id_kab=01
+HTTP_REFERER=http://localhost/simon/index.php?r=site/lahan
+---
+2016/10/23 17:14:08 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 17:14:08 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 17:15:05 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 17:15:05 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 18:54:00 [error] [php] Undefined index: komoditas (D:\xampp\htdocs\simon\protected\controllers\SiteController.php:192)
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#1 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#4 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): SiteController->run()
+#8 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=site/refreshPadi
+in D:\xampp\htdocs\simon\protected\controllers\SiteController.php (192)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/23 18:54:10 [error] [php] Undefined index: id_kab (D:\xampp\htdocs\simon\protected\controllers\SiteController.php:195)
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#1 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#4 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): SiteController->run()
+#8 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=site/refreshPadi
+in D:\xampp\htdocs\simon\protected\controllers\SiteController.php (195)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 05:52:21 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 05:52:21 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 05:52:21 [error] [php] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\simon\protected\controllers\ArcController.php:237) (D:\xampp\htdocs\chidori\framework\web\CHttpRequest.php:763)
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(248): ArcController->redirect()
+#1 unknown(0): ArcController->actionUpdate()
+#2 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): ArcController->runAction()
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): ArcController->filterAccessControl()
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(266): ArcController->runActionWithFilters()
+#12 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): ArcController->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=arc/update&id=5
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (248)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:02:28 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:02:28 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:02:28 [error] [php] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\simon\protected\controllers\ArcController.php:243) (D:\xampp\htdocs\chidori\framework\web\CHttpRequest.php:763)
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(253): ArcController->redirect()
+#1 unknown(0): ArcController->actionUpdate()
+#2 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): ArcController->runAction()
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): ArcController->filterAccessControl()
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(266): ArcController->runActionWithFilters()
+#12 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): ArcController->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=arc/update&id=5
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (253)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:03:42 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:03:42 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:03:42 [error] [php] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\simon\protected\controllers\ArcController.php:247) (D:\xampp\htdocs\chidori\framework\web\CHttpRequest.php:763)
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(257): ArcController->redirect()
+#1 unknown(0): ArcController->actionUpdate()
+#2 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): ArcController->runAction()
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): ArcController->filterAccessControl()
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(266): ArcController->runActionWithFilters()
+#12 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): ArcController->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=arc/update&id=5
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (257)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:24:11 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:24:11 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:24:11 [error] [php] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\simon\protected\controllers\ArcController.php:247) (D:\xampp\htdocs\chidori\framework\web\CHttpRequest.php:763)
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(257): ArcController->redirect()
+#1 unknown(0): ArcController->actionUpdate()
+#2 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): ArcController->runAction()
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): ArcController->filterAccessControl()
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(266): ArcController->runActionWithFilters()
+#12 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): ArcController->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=arc/update&id=5
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (257)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:31:05 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:31:05 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:34:09 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:34:09 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (179)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:44:31 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:44:31 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:44:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ON DUPLICATE KEY UPDATE' at line 1. The SQL statement executed was: REPLACE INTO sp_padi VALUES (:data0, :data1, :data2, :data3, :data4, :data5, :data6, :data7, :data8, :data9, :data10, :data11, :data12, :data13, :data14, :data15, :data16, :data17, :data18, :data19, :data20, :data21, :data22, :data23, :data24, :data25, :data26, :data27, :data28, :data29, :data30, :data31, :data32, :data33, :data34, :data35, :data36, :data37, :data38, :data39, :data40, :data41, :data42, :data43, :data44, :data45, :data46, :data47, :data48, :data49, :data50, :data51, :data52, :data53, :data54, :data55, :data56, :data57, :data58, :data59, :data60, :data61, :data62, :data63, :data64, :data65, :data66, :data67, :data68, :data69, :data70, :data71, :data72, :data73, :data74, :data75, :data76, :data77, :data78, :data79, :data80, :data81, :data82, :data83, :data84, :data85, :data86, :data87, :data88, :data89, :data90, :data91, :data92, :data93, :data94, :data95, :data96, :data97, :data98, :data99, :data100, :data101, :data102, :data103, :data104, :data105, :data106) ON DUPLICATE KEY UPDATE.
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (279)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:44:32 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ON DUPLICATE KEY UPDATE' at line 1. The SQL statement executed was: REPLACE INTO sp_padi VALUES (:data0, :data1, :data2, :data3, :data4, :data5, :data6, :data7, :data8, :data9, :data10, :data11, :data12, :data13, :data14, :data15, :data16, :data17, :data18, :data19, :data20, :data21, :data22, :data23, :data24, :data25, :data26, :data27, :data28, :data29, :data30, :data31, :data32, :data33, :data34, :data35, :data36, :data37, :data38, :data39, :data40, :data41, :data42, :data43, :data44, :data45, :data46, :data47, :data48, :data49, :data50, :data51, :data52, :data53, :data54, :data55, :data56, :data57, :data58, :data59, :data60, :data61, :data62, :data63, :data64, :data65, :data66, :data67, :data68, :data69, :data70, :data71, :data72, :data73, :data74, :data75, :data76, :data77, :data78, :data79, :data80, :data81, :data82, :data83, :data84, :data85, :data86, :data87, :data88, :data89, :data90, :data91, :data92, :data93, :data94, :data95, :data96, :data97, :data98, :data99, :data100, :data101, :data102, :data103, :data104, :data105, :data106) ON DUPLICATE KEY UPDATE in D:\xampp\htdocs\chidori\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(279): CDbCommand->execute()
+#1 [internal function]: ArcController->actionUpdate('5')
+#2 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ArcController), Array)
+#3 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ArcController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('update')
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/update')
+#14 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/simon/index.php?r=arc/update&id=5
+HTTP_REFERER=http://localhost/simon/index.php?r=arc/update&id=5
+---
+2016/10/30 06:45:00 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:45:00 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:45:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1. The SQL statement executed was: INSERT INTO sp_padi VALUES (:data0, :data1, :data2, :data3, :data4, :data5, :data6, :data7, :data8, :data9, :data10, :data11, :data12, :data13, :data14, :data15, :data16, :data17, :data18, :data19, :data20, :data21, :data22, :data23, :data24, :data25, :data26, :data27, :data28, :data29, :data30, :data31, :data32, :data33, :data34, :data35, :data36, :data37, :data38, :data39, :data40, :data41, :data42, :data43, :data44, :data45, :data46, :data47, :data48, :data49, :data50, :data51, :data52, :data53, :data54, :data55, :data56, :data57, :data58, :data59, :data60, :data61, :data62, :data63, :data64, :data65, :data66, :data67, :data68, :data69, :data70, :data71, :data72, :data73, :data74, :data75, :data76, :data77, :data78, :data79, :data80, :data81, :data82, :data83, :data84, :data85, :data86, :data87, :data88, :data89, :data90, :data91, :data92, :data93, :data94, :data95, :data96, :data97, :data98, :data99, :data100, :data101, :data102, :data103, :data104, :data105, :data106) ON DUPLICATE KEY UPDATE.
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (279)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:45:00 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1. The SQL statement executed was: INSERT INTO sp_padi VALUES (:data0, :data1, :data2, :data3, :data4, :data5, :data6, :data7, :data8, :data9, :data10, :data11, :data12, :data13, :data14, :data15, :data16, :data17, :data18, :data19, :data20, :data21, :data22, :data23, :data24, :data25, :data26, :data27, :data28, :data29, :data30, :data31, :data32, :data33, :data34, :data35, :data36, :data37, :data38, :data39, :data40, :data41, :data42, :data43, :data44, :data45, :data46, :data47, :data48, :data49, :data50, :data51, :data52, :data53, :data54, :data55, :data56, :data57, :data58, :data59, :data60, :data61, :data62, :data63, :data64, :data65, :data66, :data67, :data68, :data69, :data70, :data71, :data72, :data73, :data74, :data75, :data76, :data77, :data78, :data79, :data80, :data81, :data82, :data83, :data84, :data85, :data86, :data87, :data88, :data89, :data90, :data91, :data92, :data93, :data94, :data95, :data96, :data97, :data98, :data99, :data100, :data101, :data102, :data103, :data104, :data105, :data106) ON DUPLICATE KEY UPDATE in D:\xampp\htdocs\chidori\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(279): CDbCommand->execute()
+#1 [internal function]: ArcController->actionUpdate('5')
+#2 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ArcController), Array)
+#3 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ArcController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('update')
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/update')
+#14 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/simon/index.php?r=arc/update&id=5
+HTTP_REFERER=http://localhost/simon/index.php?r=arc/update&id=5
+---
+2016/10/30 06:49:38 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:49:38 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:49:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2016740105001' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO sp_padi VALUES (:data0, :data1, :data2, :data3, :data4, :data5, :data6, :data7, :data8, :data9, :data10, :data11, :data12, :data13, :data14, :data15, :data16, :data17, :data18, :data19, :data20, :data21, :data22, :data23, :data24, :data25, :data26, :data27, :data28, :data29, :data30, :data31, :data32, :data33, :data34, :data35, :data36, :data37, :data38, :data39, :data40, :data41, :data42, :data43, :data44, :data45, :data46, :data47, :data48, :data49, :data50, :data51, :data52, :data53, :data54, :data55, :data56, :data57, :data58, :data59, :data60, :data61, :data62, :data63, :data64, :data65, :data66, :data67, :data68, :data69, :data70, :data71, :data72, :data73, :data74, :data75, :data76, :data77, :data78, :data79, :data80, :data81, :data82, :data83, :data84, :data85, :data86, :data87, :data88, :data89, :data90, :data91, :data92, :data93, :data94, :data95, :data96, :data97, :data98, :data99, :data100, :data101, :data102, :data103, :data104, :data105, :data106).
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (281)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:49:38 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2016740105001' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO sp_padi VALUES (:data0, :data1, :data2, :data3, :data4, :data5, :data6, :data7, :data8, :data9, :data10, :data11, :data12, :data13, :data14, :data15, :data16, :data17, :data18, :data19, :data20, :data21, :data22, :data23, :data24, :data25, :data26, :data27, :data28, :data29, :data30, :data31, :data32, :data33, :data34, :data35, :data36, :data37, :data38, :data39, :data40, :data41, :data42, :data43, :data44, :data45, :data46, :data47, :data48, :data49, :data50, :data51, :data52, :data53, :data54, :data55, :data56, :data57, :data58, :data59, :data60, :data61, :data62, :data63, :data64, :data65, :data66, :data67, :data68, :data69, :data70, :data71, :data72, :data73, :data74, :data75, :data76, :data77, :data78, :data79, :data80, :data81, :data82, :data83, :data84, :data85, :data86, :data87, :data88, :data89, :data90, :data91, :data92, :data93, :data94, :data95, :data96, :data97, :data98, :data99, :data100, :data101, :data102, :data103, :data104, :data105, :data106) in D:\xampp\htdocs\chidori\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(281): CDbCommand->execute()
+#1 [internal function]: ArcController->actionUpdate('5')
+#2 D:\xampp\htdocs\chidori\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ArcController), Array)
+#3 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ArcController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('update')
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/update')
+#14 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/simon/index.php?r=arc/update&id=5
+HTTP_REFERER=http://localhost/simon/index.php?r=arc/update&id=5
+---
+2016/10/30 06:49:58 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:49:58 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:52:09 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 06:52:09 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (208)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 07:01:07 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (207)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 07:01:07 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\xampp\htdocs\simon\protected\controllers\ArcController.php (207)
+in D:\xampp\htdocs\simon\index.php (13)
+2016/10/30 07:45:55 [error] [php] Undefined offset: 13 (D:\xampp\htdocs\simon\protected\views\site\_index_kec.php:14)
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\xampp\htdocs\simon\protected\views\site\index.php(78): SiteController->renderPartial()
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require()
+#3 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(783): SiteController->renderPartial()
+#6 D:\xampp\htdocs\simon\protected\controllers\SiteController.php(91): SiteController->render()
+#7 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#10 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#15 D:\xampp\htdocs\chidori\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): SiteController->run()
+#17 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=site/index&dokumen=sp_padi&id_peta=7413&bulan=13&tahun=2016
+in D:\xampp\htdocs\simon\protected\views\site\_index_kec.php (14)
+in D:\xampp\htdocs\simon\protected\views\site\index.php (78)
+in D:\xampp\htdocs\simon\protected\controllers\SiteController.php (91)
+2016/11/01 22:35:31 [error] [exception.CException] CException: Property "CDataColumn.urlExpression" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\YiiBase.php(222): CComponent->__set('urlExpression', Object(Closure))
+#1 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(336): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(307): CGridView->initColumns()
+#3 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(148): CGridView->init()
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\xampp\htdocs\simon\protected\views\arc\admin.php(114): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#8 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#10 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#11 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#12 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#21 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#22 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/01 22:36:50 [error] [exception.CException] CException: Property "CDataColumn.urlExpression" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\YiiBase.php(222): CComponent->__set('urlExpression', 'Yii::app()->cre...')
+#1 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(336): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(307): CGridView->initColumns()
+#3 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(148): CGridView->init()
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\xampp\htdocs\simon\protected\views\arc\admin.php(115): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#8 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#10 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#11 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#12 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#21 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#22 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/01 22:36:52 [error] [exception.CException] CException: Property "CDataColumn.urlExpression" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\YiiBase.php(222): CComponent->__set('urlExpression', 'Yii::app()->cre...')
+#1 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(336): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(307): CGridView->initColumns()
+#3 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(148): CGridView->init()
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\xampp\htdocs\simon\protected\views\arc\admin.php(115): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#8 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#10 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#11 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#12 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#21 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#22 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/01 22:39:39 [error] [exception.CException] CException: Property "CLinkColumn.name" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\YiiBase.php(222): CComponent->__set('name', 'csv_link')
+#1 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(336): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\xampp\htdocs\chidori\framework\zii\widgets\grid\CGridView.php(307): CGridView->initColumns()
+#3 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(148): CGridView->init()
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\xampp\htdocs\simon\protected\views\arc\admin.php(118): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#8 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#9 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#10 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#11 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#12 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#21 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#22 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/01 22:41:07 [error] [exception.CException] CException: Property "CGridView.encodeLabel" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CWidgetFactory.php(162): CComponent->__set('encodeLabel', false)
+#1 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ArcController), 'CGridView', Array)
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 D:\xampp\htdocs\simon\protected\views\arc\admin.php(48): CBaseController->widget('zii.widgets.gri...', Array)
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#9 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#19 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#20 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/01 22:41:09 [error] [exception.CException] CException: Property "CGridView.encodeLabel" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CWidgetFactory.php(162): CComponent->__set('encodeLabel', false)
+#1 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ArcController), 'CGridView', Array)
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 D:\xampp\htdocs\simon\protected\views\arc\admin.php(48): CBaseController->widget('zii.widgets.gri...', Array)
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#9 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#19 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#20 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/01 22:43:05 [error] [exception.CException] CException: Property "CGridView.encodeLabel" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CWidgetFactory.php(162): CComponent->__set('encodeLabel', false)
+#1 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ArcController), 'CGridView', Array)
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 D:\xampp\htdocs\simon\protected\views\arc\admin.php(48): CBaseController->widget('zii.widgets.gri...', Array)
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#9 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#19 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#20 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/01 22:43:06 [error] [exception.CException] CException: Property "CGridView.encodeLabel" is not defined. in D:\xampp\htdocs\chidori\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CWidgetFactory.php(162): CComponent->__set('encodeLabel', false)
+#1 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ArcController), 'CGridView', Array)
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 D:\xampp\htdocs\simon\protected\views\arc\admin.php(48): CBaseController->widget('zii.widgets.gri...', Array)
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 D:\xampp\htdocs\simon\protected\controllers\ArcController.php(337): CController->render('admin', Array)
+#9 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): ArcController->actionAdmin()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('admin')
+#19 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('arc/admin')
+#20 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\simon\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/simon/index.php?r=arc/admin
+---
+2016/11/02 01:26:38 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\Xampp\htdocs\simon\protected\controllers\ArcController.php (207)
+in D:\Xampp\htdocs\simon\index.php (13)
+2016/11/02 01:26:38 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\Xampp\htdocs\simon\protected\controllers\ArcController.php (207)
+in D:\Xampp\htdocs\simon\index.php (13)
+2016/11/02 01:27:11 [warning] [application] Failed to set unsafe attribute "csv_link" of "Arc".
+in D:\Xampp\htdocs\simon\protected\controllers\ArcController.php (207)
+in D:\Xampp\htdocs\simon\index.php (13)
+2016/11/02 01:27:11 [warning] [application] Failed to set unsafe attribute "mdb_link" of "Arc".
+in D:\Xampp\htdocs\simon\protected\controllers\ArcController.php (207)
+in D:\Xampp\htdocs\simon\index.php (13)
+2017/01/19 06:23:27 [error] [php] Undefined offset: 0 (D:\Xampp\htdocs\simon\protected\views\site\_index.php:4)
+Stack trace:
+#0 D:\Xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\Xampp\htdocs\simon\protected\controllers\SiteController.php(264): SiteController->renderPartial()
+#2 D:\Xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionRefreshIndex()
+#3 D:\Xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#5 D:\Xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\Xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 D:\Xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#8 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 D:\Xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\Xampp\htdocs\chidori\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(283): SiteController->run()
+#12 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 D:\Xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=site/refreshIndex
+in D:\Xampp\htdocs\simon\protected\views\site\_index.php (4)
+in D:\Xampp\htdocs\simon\protected\controllers\SiteController.php (264)
+in D:\Xampp\htdocs\simon\index.php (13)
+2017/01/19 06:23:32 [error] [php] Undefined offset: 0 (D:\Xampp\htdocs\simon\protected\views\site\_index.php:4)
+Stack trace:
+#0 D:\Xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\Xampp\htdocs\simon\protected\controllers\SiteController.php(264): SiteController->renderPartial()
+#2 D:\Xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionRefreshIndex()
+#3 D:\Xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#5 D:\Xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\Xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 D:\Xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#8 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 D:\Xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\Xampp\htdocs\chidori\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(283): SiteController->run()
+#12 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 D:\Xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=site/refreshIndex
+in D:\Xampp\htdocs\simon\protected\views\site\_index.php (4)
+in D:\Xampp\htdocs\simon\protected\controllers\SiteController.php (264)
+in D:\Xampp\htdocs\simon\index.php (13)
+2017/11/16 02:31:11 [error] [php] Undefined index: 03 (D:\Xampp\htdocs\simon\protected\views\site\_index.php:4)
+Stack trace:
+#0 D:\Xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\Xampp\htdocs\simon\protected\views\site\index.php(76): SiteController->renderPartial()
+#2 D:\Xampp\htdocs\chidori\framework\web\CBaseController.php(127): require()
+#3 D:\Xampp\htdocs\chidori\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 D:\Xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#5 D:\Xampp\htdocs\chidori\framework\web\CController.php(783): SiteController->renderPartial()
+#6 D:\Xampp\htdocs\simon\protected\controllers\SiteController.php(91): SiteController->render()
+#7 D:\Xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 D:\Xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#10 D:\Xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\Xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 D:\Xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#13 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 D:\Xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#15 D:\Xampp\htdocs\chidori\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(283): SiteController->run()
+#17 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 D:\Xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\Xampp\htdocs\simon\index.php(13): CWebApplication->run()
+REQUEST_URI=/simon/index.php?r=site/index&dokumen=sp_padi&bulan=03&tahun=2016
+in D:\Xampp\htdocs\simon\protected\views\site\_index.php (4)
+in D:\Xampp\htdocs\simon\protected\views\site\index.php (76)
+in D:\Xampp\htdocs\simon\protected\controllers\SiteController.php (91)
