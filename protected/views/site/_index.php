@@ -6,15 +6,15 @@ $bulan_alfabet = MyClass::$month[$bulan];
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h4><?php echo "Penerimaan Dokumen {$dokumen_kapital} BPS Sultra"?></h4>
-        <h4><?php echo "Kondisi {$bulan_alfabet} {$tahun}"?></h4>
+        <h5><?php echo "Penerimaan Dokumen {$dokumen_kapital} BPS Sultra"?></h5>
+        <h5><?php echo "Kondisi {$bulan_alfabet} {$tahun}"?></h5>
         <div class="row">
             <div id="world-map" class="col-md-12" style="height: 500px"></div>
             <?php
            $red = '#ff6060';
            $yellow ='#fed776';
            $green = '#1ed491';
-           $grey = '#d32a0e'; //'#eeeeee';
+           $grey = '#ff6060'; //'#eeeeee';
 
 
             $kabupatenx = Kabupaten::model()->findAll();

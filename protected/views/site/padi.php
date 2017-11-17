@@ -3,43 +3,7 @@
 
 $this->pageTitle=Yii::app()->name;
 ?>
-<h2>Tabulasi Padi</h2>
 
-<div class="row" style="margin-bottom: 10px">
-	<div class="col-md-12">
-		<form id="myForm" class="form-inline pull-right">
-
-			<div class="form-group">
-				<?php
-				echo CHtml::dropDownList('luas','luas', array(1=>'Luas Panen', 2=>'Luas Tanam', 3=>'Luas Puso/Rusak'),
-					array(
-						'class'=>'form-control', 'style'=>'width: auto;'
-					)
-				);
-				?>
-			</div>
-
-			<div class="form-group">
-				<div class="input-group pull-right" style="width: 10px;">
-					<span class="input-group-addon"><i class="fa fa-calendar  fa-fw"></i></span>
-
-					<?php
-					echo CHtml::dropDownList('date', (int) date("Y"), array(2016=>2016, 2017=>2017, 2018=>2018, 2019=>2019, 2020=>2020),
-						array(
-							'class'=>'form-control', 'style'=>'width: auto;'
-						)
-					);
-					?>
-				</div>
-			</div>
-
-			<div class="form-group">
-				<button id="search" type="button" class="btn btn-default"><i class="fa fa-search fa-fw"></i></button>
-			</div>
-
-		</form>
-	</div>
-</div>
 
 <div id="reload">
 	<?php

@@ -11,8 +11,8 @@ $kecs = array_values($kecamatan);
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <?php echo "<h4>Luas Penggunaan Lahan Sawah Kabupaten {$kabupaten}</h4>";?>
-        <?php echo "<h4>Menurut Kecamatan {$tahun} (Hektar)</h4>"?>
+        <?php echo "<h5>Luas Penggunaan Lahan Sawah Kabupaten {$kabupaten}</h5>";?>
+        <?php echo "<h5>Menurut Kecamatan {$tahun} (Hektar)</h5>"?>
 
         <!--		11T6, 12T, R2, RTOTAL-->
         <!--		NEED ADD TAHUN-->

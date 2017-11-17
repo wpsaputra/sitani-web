@@ -22,11 +22,11 @@ class SiteController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','login','logout'),
+				'actions'=>array('index','login','logout', 'error', 'padi', 'palawija', 'lahan', 'refreshPadi', 'refreshPalawija', 'refreshIndex', 'refreshLahan'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('error', 'padi', 'palawija', 'lahan', 'refreshPadi', 'refreshPalawija', 'refreshIndex', 'refreshLahan'),
+				'actions'=>array(),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -174,9 +174,24 @@ class SiteController extends Controller
 		}else{
 			$id_kab = $_GET['id_kab'];
 		}
-		$this->render('padi', array('id_kab'=>$id_kab));
+
+		if(!isset($_GET['tahun'])){
+			$tahun = (int) date("Y");
+		}else{
+			$tahun = $_GET['tahun'];
+		}
+
+		// 1 = panen; 2 = tanam; 3 = puso
+		if(!isset($_GET['luas'])){
+			$luas = 1;
+		}else{
+			$luas = $_GET['luas'];
+		}
+
+		$this->render('padi', array('id_kab'=>$id_kab, 'tahun'=>$tahun, 'luas'=>$luas));
 	}
 
+	
 	public function actionPalawija()
 	{
 		if(!isset($_GET['id_kab'])){
@@ -184,7 +199,28 @@ class SiteController extends Controller
 		}else{
 			$id_kab = $_GET['id_kab'];
 		}
-		$this->render('palawija', array('id_kab'=>$id_kab));
+
+		if(!isset($_GET['tahun'])){
+			$tahun = (int) date("Y");
+		}else{
+			$tahun = $_GET['tahun'];
+		}
+
+		// 1 = panen; 2 = tanam; 3 = puso
+		if(!isset($_GET['luas'])){
+			$luas = 1;
+		}else{
+			$luas = $_GET['luas'];
+		}
+
+		// 1 = jagung; 2 = kedelai; 3 = kacang tanah; 4 = ubi kayu
+		if(!isset($_GET['komoditas'])){
+			$komoditas = 1;
+		}else{
+			$komoditas = $_GET['komoditas'];
+		}
+
+		$this->render('palawija', array('id_kab'=>$id_kab, 'tahun'=>$tahun, 'luas'=>$luas, 'komoditas'=>$komoditas));
 	}
 
 	public function actionLahan()
@@ -195,7 +231,14 @@ class SiteController extends Controller
 		}else{
 			$id_kab = $_GET['id_kab'];
 		}
-		$this->render('lahan', array('id_kab'=>$id_kab));
+
+		if(!isset($_GET['tahun'])){
+			$tahun = (int) date("Y");
+		}else{
+			$tahun = $_GET['tahun'];
+		}
+
+		$this->render('lahan', array('id_kab'=>$id_kab, 'tahun'=>$tahun));
 	}
 
 	public function actionRefreshPadi(){

@@ -27,8 +27,8 @@ $kecs = array_values($kecamatan);
     <div class="panel-body">
         <?php
         echo "
-			<h4>{$luas_str} Padi (Lahan Total) Kabupaten {$kabupaten}</h4>
-			<h4>Menurut Kecamatan {$tahun} (Hektar)</h4>
+			<h5>{$luas_str} Padi (Lahan Total) Kabupaten {$kabupaten}</h5>
+			<h5>Menurut Kecamatan {$tahun} (Hektar)</h5>
 			";
         ?>
 

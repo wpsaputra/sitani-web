@@ -25,8 +25,8 @@ switch ($komoditas) {
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h4>Luas Panen <?php echo $nama_komoditas." ";?> (Lahan Total) Provinsi Sulawesi Tenggara</h4>
-        <h4>Menurut Kabupaten/Kota <?php echo $tahun." ";?> (Hektar)</h4>
+        <h5>Luas Panen <?php echo $nama_komoditas." ";?> (Lahan Total) Provinsi Sulawesi Tenggara</h5>
+        <h5>Menurut Kabupaten/Kota <?php echo $tahun." ";?> (Hektar)</h5>
 
         <!--		jagung 0102 0109-->
         <!--		kedelai 0702 0709-->
@@ -94,7 +94,7 @@ switch ($komoditas) {
                     $data_total = $data_c1+$data_c2+$data_c3;
 
                     $link = CHtml::link($kab,array('site/palawija',
-                        'id_kab'=>$id_kabs[$index]));
+                        'id_kab'=>$id_kabs[$index], 'tahun'=>$tahun, 'luas'=>$luas, 'komoditas'=>$komoditas));
                     echo "
 						<tr>
 						<td>{$link}</td>

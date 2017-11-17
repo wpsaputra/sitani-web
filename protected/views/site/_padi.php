@@ -18,8 +18,8 @@ switch ($luas) {
     <div class="panel-body">
         <?php
         echo "
-			<h4>{$luas_str} Padi (Lahan Total) Provinsi Sulawesi Tenggara</h4>
-			<h4>Menurut Kabupaten/Kota {$tahun} (Hektar)</h4>
+			<h5>{$luas_str} Padi (Lahan Total) Provinsi Sulawesi Tenggara</h5>
+			<h5>Menurut Kabupaten/Kota {$tahun} (Hektar)</h5>
 			";
         ?>
 
@@ -85,7 +85,7 @@ switch ($luas) {
                     $data_total = $data_c1+$data_c2+$data_c3;
                     
                     $link = CHtml::link($kab,array('site/padi',
-                        'id_kab'=>$id_kabs[$index]));
+                        'id_kab'=>$id_kabs[$index], 'tahun'=>$tahun, 'luas'=>$luas));
                     echo "
 						<tr>
 						<td>{$link}</td>

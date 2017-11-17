@@ -32,8 +32,8 @@ $kecs = array_values($kecamatan);
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h4>Luas Panen <?php echo $nama_komoditas." (Lahan Total) Kabupaten {$kabupaten}";?> </h4>
-        <h4>Menurut Kecamatan <?php echo $tahun." ";?> (Hektar)</h4>
+        <h5>Luas Panen <?php echo $nama_komoditas." (Lahan Total) Kabupaten {$kabupaten}";?> </h5>
+        <h5>Menurut Kecamatan <?php echo $tahun." ";?> (Hektar)</h5>
 
         <!--		jagung 0102 0109-->
         <!--		kedelai 0702 0709-->

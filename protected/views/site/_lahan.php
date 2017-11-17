@@ -1,7 +1,7 @@
 <div class="panel panel-default">
     <div class="panel-body">
-        <h4>Luas Penggunaan Lahan Sawah Provinsi Sulawesi Tenggara</h4>
-        <?php echo "<h4>Menurut Kabupaten/Kota {$tahun} (Hektar)</h4>";?>
+        <h5>Luas Penggunaan Lahan Sawah Provinsi Sulawesi Tenggara</h5>
+        <?php echo "<h5>Menurut Kabupaten/Kota {$tahun} (Hektar)</h5>";?>
 
         <!--		11T6, 12T, R2, RTOTAL-->
         <!--		NEED ADD TAHUN-->
@@ -50,7 +50,7 @@
                     $data = Yii::app()->db->createCommand("SELECT `kabupaten`, SUM(`11T6`), SUM(`12T`), SUM(`R2`),
 							SUM(`Rtotal`) FROM `sp_lahan` WHERE kabupaten =:kab AND MID(`identitas`, 1, 4)=:tahun")->bindValues(array(':kab'=>$item, ':tahun'=>$tahun))->queryRow();
                     $link = CHtml::link($item,array('site/lahan',
-                        'id_kab'=>$id_kabs[$index]));
+                        'id_kab'=>$id_kabs[$index], 'tahun'=>$tahun));
                     echo "
 						<tr>
 						<td>{$link}</td>
