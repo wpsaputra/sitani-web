@@ -1050,3 +1050,109 @@ REQUEST_URI=/sitani/index.php?r=site/palawija&id_kab=0&tahun=2016&luas=1&komodit
 in D:\Xampp\htdocs\sitani\protected\views\site\_palawija.php (97)
 in D:\Xampp\htdocs\sitani\protected\views\site\palawija.php (59)
 in D:\Xampp\htdocs\sitani\protected\controllers\SiteController.php (223)
+2017/11/19 04:16:21 [error] [exception.ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR) in D:\xampp\htdocs\sitani\protected\views\site\lain.php:11
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#1 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#2 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('lain', NULL, true)
+#3 D:\xampp\htdocs\sitani\protected\controllers\SiteController.php(197): CController->render('lain')
+#4 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionLain()
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('lain')
+#14 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/lain')
+#15 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\sitani\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sitani/index.php?r=site/lain
+---
+2017/11/19 04:38:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "laahan". in D:\xampp\htdocs\chidori\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CController.php(271): CController->missingAction('laahan')
+#1 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('laahan')
+#2 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/laahan')
+#3 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sitani\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sitani/index.php?r=site/laahan
+---
+2017/11/19 04:48:57 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in D:\xampp\htdocs\sitani\protected\views\site\_lain.php:64
+Stack trace:
+#0 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#1 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#2 D:\xampp\htdocs\sitani\protected\views\site\lain.php(11): CController->renderPartial('_lain')
+#3 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#5 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#6 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('lain', NULL, true)
+#7 D:\xampp\htdocs\sitani\protected\controllers\SiteController.php(197): CController->render('lain')
+#8 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionLain()
+#9 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('lain')
+#18 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/lain')
+#19 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\sitani\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/sitani/index.php?r=site/lain
+---
+2017/11/19 05:02:17 [error] [exception.CException] CException: SiteController cannot find the requested view "_lain.1". in D:\xampp\htdocs\chidori\framework\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\sitani\protected\views\site\lain.php(11): CController->renderPartial('_lain.1')
+#1 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#3 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('lain', NULL, true)
+#5 D:\xampp\htdocs\sitani\protected\controllers\SiteController.php(197): CController->render('lain')
+#6 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionLain()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('lain')
+#16 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/lain')
+#17 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\sitani\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sitani/index.php?r=site/lain
+---
+2017/11/19 05:03:21 [error] [exception.CException] CException: SiteController cannot find the requested view "_lain2". in D:\xampp\htdocs\chidori\framework\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\sitani\protected\views\site\lain.php(11): CController->renderPartial('_lain2')
+#1 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#3 D:\xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#4 D:\xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('lain', NULL, true)
+#5 D:\xampp\htdocs\sitani\protected\controllers\SiteController.php(197): CController->render('lain')
+#6 D:\xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionLain()
+#7 D:\xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('lain')
+#16 D:\xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/lain')
+#17 D:\xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\sitani\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sitani/index.php?r=site/lain
+---

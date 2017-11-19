@@ -22,7 +22,7 @@ class SiteController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','login','logout', 'error', 'padi', 'palawija', 'lahan', 'refreshPadi', 'refreshPalawija', 'refreshIndex', 'refreshLahan'),
+				'actions'=>array('index','login','logout', 'error', 'padi', 'palawija', 'lahan', 'refreshPadi', 'refreshPalawija', 'refreshIndex', 'refreshLahan', 'lain'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -190,6 +190,14 @@ class SiteController extends Controller
 
 		$this->render('padi', array('id_kab'=>$id_kab, 'tahun'=>$tahun, 'luas'=>$luas));
 	}
+
+	public function actionLain()
+	{
+		// $this->render('lain', array('id_kab'=>$id_kab, 'tahun'=>$tahun, 'luas'=>$luas));
+		$this->render('lain');
+	}
+
+
 
 	
 	public function actionPalawija()
