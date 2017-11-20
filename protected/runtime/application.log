@@ -1520,3 +1520,27 @@ REQUEST_URI=/sitani/index.php?r=site/lain
 in D:\xampp\htdocs\sitani\protected\views\site\_lain9.php (66)
 in D:\xampp\htdocs\sitani\protected\views\site\lain.php (11)
 in D:\xampp\htdocs\sitani\protected\controllers\SiteController.php (197)
+2017/11/20 00:48:20 [error] [exception.CException] CException: SiteController cannot find the requested view "_lain10". in D:\Xampp\htdocs\chidori\framework\web\CController.php:879
+Stack trace:
+#0 D:\Xampp\htdocs\sitani\protected\views\site\lain.php(11): CController->renderPartial('_lain10')
+#1 D:\Xampp\htdocs\chidori\framework\web\CBaseController.php(127): require('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\chidori\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#3 D:\Xampp\htdocs\chidori\framework\web\CController.php(870): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\chidori\framework\web\CController.php(783): CController->renderPartial('lain', Array, true)
+#5 D:\Xampp\htdocs\sitani\protected\controllers\SiteController.php(201): CController->render('lain', Array)
+#6 D:\Xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionLain()
+#7 D:\Xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\Xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\Xampp\htdocs\chidori\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\Xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\Xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\Xampp\htdocs\chidori\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(283): CController->run('lain')
+#16 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController('site/lain')
+#17 D:\Xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\Xampp\htdocs\sitani\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sitani/index.php?r=site/lain&id=10
+---
