@@ -1,74 +1,67 @@
 <?php
 switch ($komoditas) {
     case 1:
-        $a = '0102';
-        $b = '0109';
+        $a = '0106';
+        $b = '0113';
         $nama_komoditas = 'Jagung';
         break;
     case 2:
-        $a = '0702';
-        $b = '0709';
+        $a = '0706';
+        $b = '0713';
         $nama_komoditas = 'Kedelai';
         break;
     case 3:
-        $a = '1002';
-        $b = '1009';
+        $a = '1006';
+        $b = '1013';
         $nama_komoditas = 'Kacang Tanah';
         break;
     case 4:
-        $a = '1102';
-        $b = '1109';
+        $a = '1106';
+        $b = '1113';
         $nama_komoditas = 'Ubi Kayu';
         break;
     case 5:
-        $a = '1402';
-        $b = '1409';
+        $a = '1406';
+        $b = '1413';
         $nama_komoditas = 'Ubi Jalar';
         break;
     case 6:
-        $a = '1502';
-        $b = '1509';
+        $a = '1506';
+        $b = '1513';
         $nama_komoditas = 'Kacang Hijau';
         break;
     case 7:
-        $a = '1602';
-        $b = '1609';
+        $a = '1606';
+        $b = '1613';
         $nama_komoditas = 'Sorgum/Cantel';
         break;
     case 8:
-        $a = '1702';
-        $b = '1709';
+        $a = '1706';
+        $b = '1713';
         $nama_komoditas = 'Gandum';
         break;
     case 9:
-        $a = '1802';
-        $b = '1809';
+        $a = '1806';
+        $b = '1813';
         $nama_komoditas = 'Talas';
         break;
     case 10:
-        $a = '1902';
-        $b = '1909';
+        $a = '1906';
+        $b = '1913';
         $nama_komoditas = 'Ganyong';
         break;
     case 11:
-        $a = '2002';
-        $b = '2009';
+        $a = '2006';
+        $b = '2013';
         $nama_komoditas = 'Umbi Lainnya';
         break;
 }
-
-$kabupaten = Kabupaten::model()->findByPk($id_kab)->kabupaten;
-$kabupaten = (substr($kabupaten, 3));
-
-$kecamatan = Kecamatan::model()->findAllByAttributes(array('id_kab'=>$id_kab));
-$kecamatan = CHtml::listData($kecamatan, 'id', 'kecamatan');
-$kecs = array_values($kecamatan);
 ?>
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h5>Luas Panen <?php echo $nama_komoditas." (Lahan Total) Kabupaten {$kabupaten}";?> </h5>
-        <h5>Menurut Kecamatan <?php echo $tahun." ";?> (Hektar)</h5>
+        <h5>Luas Puso <?php echo $nama_komoditas." ";?> (Lahan Total) Provinsi Sulawesi Tenggara</h5>
+        <h5>Menurut Kabupaten/Kota <?php echo $tahun." ";?> (Hektar)</h5>
 
         <!--		jagung 0102 0109-->
         <!--		kedelai 0702 0709-->
@@ -110,21 +103,21 @@ $kecs = array_values($kecamatan);
                 <tbody>
 
                 <?php
-//                $kabupaten = Yii::app()->db->createCommand("SELECT DISTINCT(`kabupaten`) AS `kabupaten` FROM `sm_kabupaten` ORDER by `kabupaten` ASC")->queryAll();
-//                $id_kab = Yii::app()->db->createCommand("SELECT DISTINCT(`id`) AS `id` FROM `sm_kabupaten` ORDER by `kabupaten` ASC")->queryAll();
-//
-//                $kabs= MyClass::toArray($kabupaten);
-//                $id_kabs = MyClass::toArray($id_kab);
+                $kabupaten = Yii::app()->db->createCommand("SELECT DISTINCT(`kabupaten`) AS `kabupaten` FROM `sm_kabupaten` ORDER by `kabupaten` ASC")->queryAll();
+                $id_kab = Yii::app()->db->createCommand("SELECT DISTINCT(`id`) AS `id` FROM `sm_kabupaten` ORDER by `kabupaten` ASC")->queryAll();
 
-                $data_kec = array();
+                $kabs= MyClass::toArray($kabupaten);
+                $id_kabs = MyClass::toArray($id_kab);
+
+                $data_kab = array();
                 $index = 0;
-                foreach ($kecs as $kec) {
+                foreach ($kabs as $kab) {
                     $data_bulan = array();
                     $data_bantu = array();
                     for ($i=1; $i<=12; $i++){
-                        $data = Yii::app()->db->createCommand("SELECT `kecamatan`, SUM(`".$a."`+`".$b."`) AS `total`
-								FROM `sp_palawija` WHERE kecamatan=:kec AND bulan=:bulan AND MID(`identitas`, 1, 4)=:tahun")
-                            ->bindValues(array(':kec'=>$kec, ':bulan'=>$i, ':tahun'=>$tahun))->queryAll();
+                        $data = Yii::app()->db->createCommand("SELECT `kabupaten`, SUM(`".$a."`+`".$b."`) AS `total`
+								FROM `sp_palawija` WHERE kabupaten=:kab AND bulan=:bulan AND MID(`identitas`, 1, 4)=:tahun")
+                            ->bindValues(array(':kab'=>$kab, ':bulan'=>$i, ':tahun'=>$tahun))->queryAll();
                         $data_bulan[] = $data;
                     }
 //						print_r($data_bulan);
@@ -135,11 +128,11 @@ $kecs = array_values($kecamatan);
                     $data_c3 = $data_bulan[8][0]["total"]+$data_bulan[9][0]["total"]+$data_bulan[10][0]["total"]+$data_bulan[11][0]["total"];
                     $data_total = $data_c1+$data_c2+$data_c3;
 
-//                    $link = CHtml::link($kec,array('site/palawija',
-//                        'id_kab'=>$id_kabs[$index]));
+                    $link = CHtml::link($kab,array('site/palawija',
+                        'id_kab'=>$id_kabs[$index], 'tahun'=>$tahun, 'luas'=>$luas, 'komoditas'=>$komoditas));
                     echo "
 						<tr>
-						<td>{$kec}</td>
+						<td>{$link}</td>
 						<td>{$data_bulan[0][0]['total']}</td>
 						<td>{$data_bulan[1][0]['total']}</td>
 						<td>{$data_bulan[2][0]['total']}</td>
@@ -164,9 +157,9 @@ $kecs = array_values($kecamatan);
                     }
 
 //						$x = array_values(array_filter($data_bantu));
-                    $data_kec[] = array_map(function($value){return (int)$value;}, $data_bantu);
+                    $data_kab[] = array_map(function($value){return (int)$value;}, $data_bantu);
 
-//                    $index = $index+1;
+                    $index = $index+1;
 
                 }
 
@@ -187,8 +180,8 @@ $kecs = array_values($kecamatan);
         $calendar = array_values(array_filter($calendar));
 
         $series = array();
-        for($i=0; $i<count($kecs); $i++){
-            $x = array('name'=>$kecs[$i], 'data'=>$data_kec[$i]);
+        for($i=0; $i<17; $i++){
+            $x = array('name'=>$kabs[$i], 'data'=>$data_kab[$i]);
             $series[] = $x;
         }
 
@@ -198,7 +191,7 @@ $kecs = array_values($kecamatan);
         <script type="text/javascript">
             $("#chart").highcharts({
                 title:{
-                    text: <?php echo "'Luas Panen ".$nama_komoditas." Per Kecamatan di Kabupaten {$kabupaten} ".$tahun."'"; ?>
+                    text: <?php echo "'Luas Puso ".$nama_komoditas." Per Kabupaten SULTRA ".$tahun."'"; ?>
                 },
                 xAxis:{
                     categories: [
@@ -206,7 +199,7 @@ $kecs = array_values($kecamatan);
                     ],
                 },
                 yAxis:{
-                    title: 'Luas Panen (Ha)'
+                    title: 'Luas Puso (Ha)'
                 },
                 series: <?php echo CJSON::encode($series);?>,
                 credits: false
