@@ -22,7 +22,8 @@ class SiteController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','login','logout', 'error', 'padi', 'palawija', 'lahan', 'refreshPadi', 'refreshPalawija', 'refreshIndex', 'refreshLahan', 'lain', 'aram'),
+				'actions'=>array('index','login','logout', 'error', 'padi', 'palawija', 'lahan', 'refreshPadi', 
+					'refreshPalawija', 'refreshIndex', 'refreshLahan', 'lain', 'aram', 'produksi', 'konsumsi'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -210,6 +211,28 @@ class SiteController extends Controller
 			$id = $_GET['id'];
 		}
 		$this->render('aram', array('id'=>$id));
+		// $this->render('lain');
+	}
+
+	public function actionProduksi()
+	{
+		if(!isset($_GET['id'])){
+			$id = 1;
+		}else{
+			$id = $_GET['id'];
+		}
+		$this->render('produksi', array('id'=>$id));
+		// $this->render('lain');
+	}
+
+	public function actionKonsumsi()
+	{
+		if(!isset($_GET['id'])){
+			$id = 1;
+		}else{
+			$id = $_GET['id'];
+		}
+		$this->render('konsumsi', array('id'=>$id));
 		// $this->render('lain');
 	}
 
