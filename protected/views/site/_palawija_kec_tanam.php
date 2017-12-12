@@ -1,58 +1,58 @@
 <?php
 switch ($komoditas) {
     case 1:
-        $a = '0102';
-        $b = '0109';
+        $a = '0105';
+        $b = '0112';
         $nama_komoditas = 'Jagung';
         break;
     case 2:
-        $a = '0702';
-        $b = '0709';
+        $a = '0705';
+        $b = '0712';
         $nama_komoditas = 'Kedelai';
         break;
     case 3:
-        $a = '1002';
-        $b = '1009';
+        $a = '1005';
+        $b = '1012';
         $nama_komoditas = 'Kacang Tanah';
         break;
     case 4:
-        $a = '1102';
-        $b = '1109';
+        $a = '1105';
+        $b = '1112';
         $nama_komoditas = 'Ubi Kayu';
         break;
     case 5:
-        $a = '1402';
-        $b = '1409';
+        $a = '1405';
+        $b = '1412';
         $nama_komoditas = 'Ubi Jalar';
         break;
     case 6:
-        $a = '1502';
-        $b = '1509';
+        $a = '1505';
+        $b = '1512';
         $nama_komoditas = 'Kacang Hijau';
         break;
     case 7:
-        $a = '1602';
-        $b = '1609';
+        $a = '1605';
+        $b = '1612';
         $nama_komoditas = 'Sorgum/Cantel';
         break;
     case 8:
-        $a = '1702';
-        $b = '1709';
+        $a = '1705';
+        $b = '1712';
         $nama_komoditas = 'Gandum';
         break;
     case 9:
-        $a = '1802';
-        $b = '1809';
+        $a = '1805';
+        $b = '1812';
         $nama_komoditas = 'Talas';
         break;
     case 10:
-        $a = '1902';
-        $b = '1909';
+        $a = '1905';
+        $b = '1912';
         $nama_komoditas = 'Ganyong';
         break;
     case 11:
-        $a = '2002';
-        $b = '2009';
+        $a = '2005';
+        $b = '2012';
         $nama_komoditas = 'Umbi Lainnya';
         break;
 }
@@ -67,7 +67,7 @@ $kecs = array_values($kecamatan);
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h5>Luas Panen <?php echo $nama_komoditas." (Lahan Total) Kabupaten {$kabupaten}";?> </h5>
+        <h5>Luas Tanam <?php echo $nama_komoditas." (Lahan Total) Kabupaten {$kabupaten}";?> </h5>
         <h5>Menurut Kecamatan <?php echo $tahun." ";?> (Hektar)</h5>
 
         <!--		jagung 0102 0109-->
@@ -198,7 +198,7 @@ $kecs = array_values($kecamatan);
         <script type="text/javascript">
             $("#chart").highcharts({
                 title:{
-                    text: <?php echo "'Luas Panen ".$nama_komoditas." Per Kecamatan di Kabupaten {$kabupaten} ".$tahun."'"; ?>
+                    text: <?php echo "'Luas Tanam ".$nama_komoditas." Per Kecamatan di Kabupaten {$kabupaten} ".$tahun."'"; ?>
                 },
                 xAxis:{
                     categories: [
@@ -206,7 +206,7 @@ $kecs = array_values($kecamatan);
                     ],
                 },
                 yAxis:{
-                    title: 'Luas Panen (Ha)'
+                    title: 'Luas Tanam (Ha)'
                 },
                 series: <?php echo CJSON::encode($series);?>,
                 credits: false

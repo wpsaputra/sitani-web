@@ -20,6 +20,41 @@ switch ($komoditas) {
         $b = '1109';
         $nama_komoditas = 'Ubi Kayu';
         break;
+    case 5:
+        $a = '1402';
+        $b = '1409';
+        $nama_komoditas = 'Ubi Jalar';
+        break;
+    case 6:
+        $a = '1502';
+        $b = '1509';
+        $nama_komoditas = 'Kacang Hijau';
+        break;
+    case 7:
+        $a = '1602';
+        $b = '1609';
+        $nama_komoditas = 'Sorgum/Cantel';
+        break;
+    case 8:
+        $a = '1702';
+        $b = '1709';
+        $nama_komoditas = 'Gandum';
+        break;
+    case 9:
+        $a = '1802';
+        $b = '1809';
+        $nama_komoditas = 'Talas';
+        break;
+    case 10:
+        $a = '1902';
+        $b = '1909';
+        $nama_komoditas = 'Ganyong';
+        break;
+    case 11:
+        $a = '2002';
+        $b = '2009';
+        $nama_komoditas = 'Umbi Lainnya';
+        break;
 }
 ?>
 

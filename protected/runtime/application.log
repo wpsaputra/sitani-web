@@ -1544,3 +1544,29 @@ Stack trace:
 #19 {main}
 REQUEST_URI=/sitani/index.php?r=site/lain&id=10
 ---
+2017/12/12 01:28:25 [error] [php] Undefined variable: nama_komoditas (D:\Xampp\htdocs\sitani\protected\views\site\_palawija.php:63)
+Stack trace:
+#0 D:\Xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\Xampp\htdocs\sitani\protected\views\site\palawija.php(19): SiteController->renderPartial()
+#2 D:\Xampp\htdocs\chidori\framework\web\CBaseController.php(127): require()
+#3 D:\Xampp\htdocs\chidori\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 D:\Xampp\htdocs\chidori\framework\web\CController.php(870): SiteController->renderFile()
+#5 D:\Xampp\htdocs\chidori\framework\web\CController.php(783): SiteController->renderPartial()
+#6 D:\Xampp\htdocs\sitani\protected\controllers\SiteController.php(247): SiteController->render()
+#7 D:\Xampp\htdocs\chidori\framework\web\actions\CInlineAction.php(50): SiteController->actionPalawija()
+#8 D:\Xampp\htdocs\chidori\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#10 D:\Xampp\htdocs\chidori\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\Xampp\htdocs\chidori\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 D:\Xampp\htdocs\chidori\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#13 D:\Xampp\htdocs\chidori\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 D:\Xampp\htdocs\chidori\framework\web\CController.php(292): CFilterChain->run()
+#15 D:\Xampp\htdocs\chidori\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(283): SiteController->run()
+#17 D:\Xampp\htdocs\chidori\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 D:\Xampp\htdocs\chidori\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\Xampp\htdocs\sitani\index.php(13): CWebApplication->run()
+REQUEST_URI=/sitani/index.php?r=site/palawija&id_kab=0&tahun=2016&luas=1&komoditas=12
+in D:\Xampp\htdocs\sitani\protected\views\site\_palawija.php (63)
+in D:\Xampp\htdocs\sitani\protected\views\site\palawija.php (19)
+in D:\Xampp\htdocs\sitani\protected\controllers\SiteController.php (247)
